@@ -59,7 +59,7 @@ dyf_transformed = DynamicFrame.fromDF(df_covid , glueContext, "dyf_transformed")
 glueContext.write_dynamic_frame.from_options(
     frame = dyf_transformed,
     connection_type = "s3",
-    connection_options = {"path": "s3://target-data-wl"},
+    connection_options = {"path": "s3://{your-rute}"},
     format = "parquet",
     transformation_ctx = "write_parquet"
 )
