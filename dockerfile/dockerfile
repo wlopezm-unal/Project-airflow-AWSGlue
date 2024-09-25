@@ -1,0 +1,8 @@
+FROM  apache/airflow:latest as airflow 
+USER root
+RUN apt-get update
+USER airflow
+ENV PYTHONPATH "${PYTHONPATH}:/opt/airflow"
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
