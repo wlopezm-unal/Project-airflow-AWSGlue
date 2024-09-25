@@ -51,6 +51,24 @@ This integration enables seamless and scalable management of ETL processes, ensu
 # System Setup
 
 1. Clone the repository
+    git clone https://github.com/wlopezm-unal/Project-airflow-AWSGlue.git
+2. Create a virtual environment
+     python -m venv airflow-env
+3. Activate the virtual environment.
+    source ./airflow-env/Scripts/activate
+4. Lauch docker compose
+    docker compose up -d
+5. Load dataset in S3
+6. Create bucket S3 and Define your rutes S3:// para the AWS_glue files
+7. Create ETL JOBs in AWS GLue, and copy the code whay you can found in aws_glue files of this repository
+8. Create Airflow connection and insert Your credential AWS in Airflow
+   ![image](https://github.com/user-attachments/assets/f30adc40-630b-4090-9034-4c41e499caed)
+9. Run the DAG : aws_glue_etl_dag
+10. Configure your Crawler in AWS Glue to you can see and work with the process data using AWS Athena
+    ![image](https://github.com/user-attachments/assets/4344ce23-302a-46f7-a0f9-787e7cefa2b1)
+
+
+
 
 
 
