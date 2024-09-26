@@ -33,7 +33,7 @@ The data for this project was obtained from Colombia's open data page on COVID-1
 ![image](https://github.com/user-attachments/assets/558c3405-667a-470d-8f51-7169fa73edf4)
 
 * Datos.gov.co: Source of the data.
-* Apache Airflow & Celery: Orchestrates the ETL process and manages task distribution.
+* Apache Airflow: Orchestrates the ETL process and manages task distribution.
 * PostgreSQL: Temporary storage and metadata management.
 * Amazon S3: Raw data storage.
 * AWS Glue: Data cataloging and ETL jobs.
