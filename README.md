@@ -7,7 +7,7 @@ Redis is used as a messaging system to optimize communication between Airflow co
 
 This integration enables seamless and scalable management of ETL processes, ensuring that data is processed efficiently and stored appropriately for further analysis. In addition, the use of Airflow provides visibility and control over the workflow, facilitating scheduling and monitoring of tasks.
 
-The data for this project was obtained from Colombia's open data website. Link : https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data
+The data for this project was obtained from Colombia's open data page on COVID-19 positive cases. . Link : https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data
 
 ---------------------------------------------------------------------------------------------------------------------
 
